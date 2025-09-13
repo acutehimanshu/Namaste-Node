@@ -1,6 +1,11 @@
 
 # Episode-02 | JavaScript on the Server
 
+Extra Points: Node.js is JavaScript - Not Fully true. 
+Node.js is a runtime that executes JavaScript.
+v8 is both interpreter + JIT compiler.
+
+
 ## Q: What is a Server?
 A **server** is essentially a remote computer. You can think of it as a computer whose **CPU works remotely**.  
 Servers can be accessed over a network to provide **resources** and **services** to other computer programs.  

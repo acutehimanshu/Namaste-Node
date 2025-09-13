@@ -28,6 +28,8 @@ Node.js features an **event-driven architecture** and supports **asynchronous I/
 At that time, **Apache HTTP Server** was blocking in nature. Ryan wanted to build a **non-blocking server**, which led to the creation of Node.js as a **non-blocking I/O system**.  
 The key advantage of a non-blocking server: it can handle **multiple requests with fewer threads**.
 
+"Node.js is multi-threaded" → ❌ Not correct.
+=> Node.js core runs on a single thread, but uses libuv’s thread pool for background tasks (like file system, DNS, crypto).
 ---
 
 ## Key Milestones

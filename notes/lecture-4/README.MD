@@ -219,3 +219,11 @@ console.log(util.inspect(obj, { showHidden: false, depth: null, colors: true }))
 
 👉 You can explore more built-in modules in the [Node.js Documentation](https://nodejs.org/api/).
 
+---
+function (){
+    // all code wrapped here
+}
+That’s ✅ correct in principle.
+⚠️ But you should clarify: Node does not wrap modules in a normal function, but in a special function with parameters:
+
+(function(exports, require, module, __filename, __dirname) { ... })
